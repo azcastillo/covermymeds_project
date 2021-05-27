@@ -102,7 +102,7 @@ RandomForestClassifier Scores:
 *	recall =0.92
 *	AUC=0.88
 
-Cross Validation Scores
+Cross Validation Scores: 
 *	mean accuracy = 0.81
 *	mean precision = 0.84
 *	mean recall =0.92
