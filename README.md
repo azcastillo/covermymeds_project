@@ -1,19 +1,18 @@
-# CoverMyMeds Internship Project: 
+# CoverMyMeds Project: 
 
 ## Project Overview 
-* Created two models for predicting prior authorization information. 
+* Two part project in which I created two models to make predictions based on prior authorization information. 
 
-* Part 1 of the project consisted of creating a model predicting whether a prior authorization would be needed based upon pharmacy claims data. 
-* Part 1 also consisted of exploratory data analysis in which the following questions were answered: 
--Which insurance companies had the most approved pharmacy claims? 
--Which drug was approved the most (numerically)? Which rejection code seemed to appear the most with each drug? 
--What about a scaled version of this? Relatively, how much did each code appear for each drug?
+* Part 1 of the project consisted of creating a model predicting whether a prior authorization would be needed based upon pharmacy claims data. This portion of the prject also consisted of exploratory data analysis in which the following questions were answered: 
 
-* Part 2 of the project consisted of creating a model predicting whether a prior authorization is likely to be approved. This model was based on data contained on the PA such as correct diagnosis, has already tried and failed a generic drug alternative, has health-related reasons not to take certain medications (contraindications), and claims data. 
+  * Which insurance companies had the most approved pharmacy claims? 
+  * Which drug was approved the most (numerically)? Which rejection code seemed to appear the most with each drug? 
+  * What about a scaled version of this? Relatively, how much did each code appear for each drug?
 
-* Part 2 also consisted of exploratory data analysis in which the following questions were answered (based only on the prior authorization data): 
--What is the relationship between the correct diagnosis, tried and failed, and contraindication and the prior authorization being approved? 
--Of the people who have or have not tried and failed a generic alternative, how many of them had contraindications or a correct diagnosis? 
+* Part 2 of the project consisted of creating a model predicting whether a prior authorization is likely to be approved. This model was based on data contained on the PA such as correct diagnosis, has already tried and failed a generic drug alternative, has health-related reasons not to take certain medications (contraindications), and claims data. Moreover, this portion consisted of exploratory data analysis in which the following questions were answered (based only on the prior authorization data): 
+
+  * What is the relationship between the correct diagnosis, tried and failed, and contraindication and the prior authorization being approved? 
+  * Of the people who have or have not tried and failed a generic alternative, how many of them had contraindications or a correct diagnosis? 
 
 
 ## Code and Resources Used 
@@ -37,19 +36,23 @@ There was only a small amount of data cleaning necessary for this project. In pa
 ## EDA
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights and pictures of graphs can be found in the compressed file folder (see documentation above). 
 
-**Part 1**: 
-![](bin_drug_reject_code.jpg)
-Count plot showing the how many times a insurance provider approved or denied the pharmacy claim. The count plot also shows how many times (total) each drug was approved or denied a pharmacy claim. 
+**Part 1**:
 
+* Count plot showing the how many times a insurance provider approved or denied the pharmacy claim. The count plot also shows how many times (total) each drug was approved or denied a pharmacy claim. 
+
+![](bin_drug_reject_code.jpg)
+
+* Count plot visualization detailing each drug and the associated times that a reject code appeared with said drug. 
 ![](reject_code_with_drug.jpg)
-Count plot visualization detailing each drug and the associated times that a reject code appeared with said drug. 
+
+* Count plot detailing the formulary for each insurance provider and the number of times each drug was approved or not. 
 
 ![](formulary_for_payer.jpg)
-Count plot detailing the formulary for each insurance provider and the number of times each drug was approved or not. 
 
 **Part 2**: 
+* Count plot detailing which factors influenced pas being approved or denied. 
+
 ![](factors_influence_pas.jpg)
-Count plot detailing which factors influenced pas being approved or denied. 
 
 
 ## Model Building 
@@ -99,7 +102,7 @@ RandomForestClassifier Scores:
 *	recall =0.92
 *	AUC=0.88
 
-Cross Validation Scores
+Cross Validation Scores: 
 *	mean accuracy = 0.81
 *	mean precision = 0.84
 *	mean recall =0.92
