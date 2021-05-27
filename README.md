@@ -38,22 +38,21 @@ There was only a small amount of data cleaning necessary for this project. In pa
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights and pictures of graphs can be found in the compressed file folder (see documentation above). 
 
 **Part 1**: 
-![](bin_drug_reject_code.jpg)
-
 Count plot showing the how many times a insurance provider approved or denied the pharmacy claim. The count plot also shows how many times (total) each drug was approved or denied a pharmacy claim. 
 
-![](reject_code_with_drug.jpg)
+![](bin_drug_reject_code.jpg)
 
 Count plot visualization detailing each drug and the associated times that a reject code appeared with said drug. 
-
-![](formulary_for_payer.jpg)
+![](reject_code_with_drug.jpg)
 
 Count plot detailing the formulary for each insurance provider and the number of times each drug was approved or not. 
 
-**Part 2**: 
-![](factors_influence_pas.jpg)
+![](formulary_for_payer.jpg)
 
+**Part 2**: 
 Count plot detailing which factors influenced pas being approved or denied. 
+
+![](factors_influence_pas.jpg)
 
 
 ## Model Building 
