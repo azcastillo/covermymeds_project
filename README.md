@@ -1,4 +1,4 @@
-# CoverMyMeds Internship Project: 
+# CoverMyMeds Project: 
 
 ## Project Overview 
 * Created two models for predicting prior authorization information. 
