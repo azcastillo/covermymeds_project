@@ -31,8 +31,8 @@ URLs used:
 ## Documentation: 
 GitHub Contents: 
 
-* CoverMyMeds_Project_AZC.ipynb
-Jupyter Notebook containting all of the code needed for the models, EDA and questions posed for the internship project. 
+* CoverMyMeds_Project.ipynb
+Jupyter Notebook containting all of the code needed for the models, EDA and questions posed for the project. 
 
 * pa_pharmacy_claim_predictions.csv
 CSV file containing the model predictions for part 1 of the project (whether or not a PA will be needed based on pharmacy claims). 
