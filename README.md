@@ -5,7 +5,7 @@
 
 * Part 1 of the project consisted of creating a model predicting whether a prior authorization would be needed based upon pharmacy claims data. This portion of the prject also consisted of exploratory data analysis in which the following questions were answered: 
 
-* Which insurance companies had the most approved pharmacy claims? 
+** Which insurance companies had the most approved pharmacy claims? 
 * Which drug was approved the most (numerically)? Which rejection code seemed to appear the most with each drug? 
 * What about a scaled version of this? Relatively, how much did each code appear for each drug?
 
