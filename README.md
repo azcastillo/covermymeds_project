@@ -28,6 +28,33 @@ URLs used:
 -https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9
 - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
+## Documentation: 
+GitHub Contents: 
+
+* CoverMyMeds_Project_AZC.ipynb
+Jupyter Notebook containting all of the code needed for the models, EDA and questions posed for the internship project. 
+
+* pa_pharmacy_claim_predictions.csv
+CSV file containing the model predictions for part 1 of the project (whether or not a PA will be needed based on pharmacy claims). 
+
+* pa_predictions.csv
+CSV file containing the model predictions for part 2 of the project (whether or not a PA will likely be approved or denied)
+
+* README.MD
+Document containing the project overview, code and resources used, data cleaning overview, resources used, EDA performed, as well as model building and performance. 
+
+* bin_drug_reject_code.jpg
+Important image used during the project to help answer questions. More information can be found below under the EDA section. 
+
+* reject_code_with_drug.jpg
+Important image used during the project to help answer questions. More information can be found below under the EDA section. 
+
+* formulary_for_payer.png
+Important image used during the project to help answer questions. More information can be found below under the EDA section. 
+
+* factors_influence_pas.jpg
+Important image used during the project to help answer questions. More information can be found below under the EDA section. 
+
 
 ## Data Cleaning
 There was only a small amount of data cleaning necessary for this project. In particular, for part 1, there was missing data in the reject_code column of the dim_claims_df data frame. I chose to replace the missing data with 0 using the fillna method from pandas. I chose to use zero because no reject_code meant that your pharmacy claim got approved. 
