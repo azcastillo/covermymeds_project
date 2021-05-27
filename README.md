@@ -1,36 +1,6 @@
 # CoverMyMeds Internship Project: 
 
-##Documentation: 
-Compressed File Contents: 
-
-* CoverMyMeds Project.ipynb
-Jupyter Notebook containting all of the code needed for the models, EDA and questions posed for the internship project. 
-
-* pa_pharmacy_claim_predictions.csv
-CSV file containing the model predictions for part 1 of the project (whether or not a PA will be needed based on pharmacy claims). 
-
-* pa_predictions.csv
-CSV file containing the model predictions for part 2 of the project (whether or not a PA will likely be approved or denied)
-
-* README.MD
-Document containing the project overview, code and resources used, data cleaning overview, resources used, EDA performed, as well as model building and performance. 
-
-* bin_drug_reject_code.jpg
-Important image used during the project to help answer questions. More information can be found below under the EDA section. 
-
-* reject_code_with_drug.jpg
-Important image used during the project to help answer questions. More information can be found below under the EDA section. 
-
-* formulary_for_payer.png
-Important image used during the project to help answer questions. More information can be found below under the EDA section. 
-
-* factors_influence_pas.jpg
-Important image used during the project to help answer questions. More information can be found below under the EDA section. 
-
-
-
-
-##Project Overview 
+## Project Overview 
 * Created two models for predicting prior authorization information. 
 
 * Part 1 of the project consisted of creating a model predicting whether a prior authorization would be needed based upon pharmacy claims data. 
