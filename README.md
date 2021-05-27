@@ -19,7 +19,7 @@
 ## Code and Resources Used 
 **Python Version:** 3.9  
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn,    
-**Books Used: 
+**Books Used**: 
 - Grus, Joel. Data science from scratch: first principles with python. O'Reilly Media, 2019.
 - Bruce, Peter, Andrew Bruce, and Peter Gedeck. Practical Statistics for Data Scientists: 50+ Essential Concepts Using R and Python. O'Reilly Media, 2020.
 - McKinney, Wes. Python for data analysis: Data wrangling with Pandas, NumPy, and IPython. " O'Reilly Media, Inc.", 2012.
@@ -37,7 +37,7 @@ There was only a small amount of data cleaning necessary for this project. In pa
 ## EDA
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights and pictures of graphs can be found in the compressed file folder (see documentation above). 
 
-Part 1: 
+**Part 1**: 
 -bin_drug_reject_code.jpg
 Count plot showing the how many times a insurance provider approved or denied the pharmacy claim. The count plot also shows how many times (total) each drug was approved or denied a pharmacy claim. 
 -reject_code_with_drug
@@ -45,28 +45,28 @@ Count plot visualization detailing each drug and the associated times that a rej
 -formulary_for_payer.jpg
 Count plot detailing the formulary for each insurance provider and the number of times each drug was approved or not. 
 
-Part 2: 
+**Part 2**: 
 -factors_influence_pas.jpg
 Count plot detailing which factors influenced pas being approved or denied. 
 
 
 ## Model Building 
 
-Part 1: 
+**Part 1**: 
 First, I transformed the categorical variables into dummy variables using a one hot encoder. I also split the data into train and tests sets with a test size of 30%.   
 
 I used a random forest classifier for the moodel and evaluated the model using the accuracy, precision, recall, and AUC metrics. I chose a random forest classifier because of the sparsity associated with the data as well as the primary binary nature of each feature. 
 
 A GridSearchCV was performed on the random forest model where I analyzed the max_depth hyperparameter. The GridSearchCV returned that the random forest classifier with a max_depth hyperparameter equal to 5 performed more optimally on the precision metric. I consequentely used this model for the prediction. 
 
-Part 2: 
+**Part 2**: 
 In order to create the appropriate feature matrix for the testing models, I first had to use the given bridge table to combine information from the claims data as well as prior authorization data. This was done using pandas. 
 
 I also split the data into train and tests sets with a test size of 30%. Each predicting feature was already numerical and in binary values. 
 
 I tried three different models and again evaluated them using accuracy, precision, recall, and AUC for the same reason above. 
 
-I tried three different models:
+Models Used: 
 *	**DecisionTreeClassifier** – Baseline for the model
 *	**KNN** – To see how data performed on another non ensemble model. 
 *	**Random Forest Classifier** – With the sparsity and binary nature of the data, I thought this would be a good choice. 
@@ -75,7 +75,7 @@ I ultimately opted with the RandomForestClassifier due to metric performance as 
 
 ## Model performance
 
-Part 1: 
+**Part 1**: 
 The Random Forest Classifier far outperformed the other approaches when using baseline metrics as well as with cross validation. 
 
 RandomForestClassifier Scores: 
@@ -89,7 +89,7 @@ Cross Validation Scores for the RandomForestClassifier model:
 *	mean precision = .900
 *	mean recall =1
 
-Part 2: 
+**Part 2**: 
 
 RandomForestClassifier Scores: 
 *	accuracy = 0.81
