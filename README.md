@@ -44,7 +44,7 @@ Count plot showing the how many times a insurance provider approved or denied th
 ![](reject_code_with_drug.jpg)
 Count plot visualization detailing each drug and the associated times that a reject code appeared with said drug. 
 
-![](rformulary_for_payer.jpg)
+![](formulary_for_payer.jpg)
 Count plot detailing the formulary for each insurance provider and the number of times each drug was approved or not. 
 
 **Part 2**: 
