@@ -61,7 +61,7 @@ There was only a small amount of data cleaning necessary for this project. In pa
 
 
 ## EDA
-I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights and pictures of graphs can be found in the compressed file folder (see documentation above). 
+I looked at the distributions of the data and the value counts for the various categorical variables.
 
 **Part 1**:
 
