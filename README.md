@@ -71,6 +71,7 @@ I looked at the distributions of the data and the value counts for the various c
 ![](bin_drug_reject_code.jpg)
 
 * Count plot visualization detailing each drug and the associated times that a reject code appeared with said drug. 
+
 ![](reject_code_with_drug.jpg)
 
 * Count plot detailing the formulary for each insurance provider and the number of times each drug was approved or not. 
