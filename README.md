@@ -100,7 +100,7 @@ I also split the data into train and tests sets with a test size of 30%. Each pr
 
 I tried three different models and again evaluated them using accuracy, precision, recall, and AUC for the same reason above. 
 
-Models Used: 
+## Models Used: 
 *	**DecisionTreeClassifier** – Baseline for the model
 *	**KNN** – To see how data performed on another non ensemble model. 
 *	**Random Forest Classifier** – With the sparsity and binary nature of the data, I thought this would be a good choice. 
