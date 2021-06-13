@@ -2,7 +2,7 @@
 
  ### Project Overview:
 
-Two part project in which I used simulated data to make predictions based on prior authorization information. 
+Two part project in which I used simulated data based on prior authorization information to make predictions. 
 
 Part 1 of the project consisted of creating a model predicting whether a prior authorization would be needed based upon pharmacy claims data. This portion of the project also consisted of exploratory data analysis in which the following questions were answered: 
 
