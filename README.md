@@ -24,7 +24,7 @@ Part 2 of the project consisted of creating a model predicting whether a prior a
 - Bruce, Peter, Andrew Bruce, and Peter Gedeck. Practical Statistics for Data Scientists: 50+ Essential Concepts Using R and Python. O'Reilly Media, 2020.
 - McKinney, Wes. Python for data analysis: Data wrangling with Pandas, NumPy, and IPython. " O'Reilly Media, Inc.", 2012.
 
-URLs used: 
+**URLs used**: 
 - https://www.analyticsvidhya.com/blog/2020/03/one-hot-encoding-vs-label-encoding-using-scikit-learn/
 -https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9
 - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
